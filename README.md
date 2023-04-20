@@ -46,10 +46,10 @@ python detect.py --weights weights/best.pt \
 3. 预训练权重基于[yolov5s.pt](https://github.com/ultralytics/yolov5/releases/download/v7.0/yolov5s.pt)
 
 ```python
-python train.py --weights yolov5s.pt \
-                --cfg models/yolov5s-breast.yaml \
-                --data dataset/data.yaml \
-                --hyp data/hyps/hyp.breast.yaml \
+python train.py --weights yolov5s.pt \ # 预训练权重
+                --cfg models/yolov5s-breast.yaml \ # 模型配置
+                --data dataset/data.yaml \ # 数据配置
+                --hyp data/hyps/hyp.breast.yaml \ # 超参数配置
                 --epochs 100 \
                 --batch-size 512 \
                 --imgsz 640 \
@@ -63,6 +63,7 @@ python train.py --weights yolov5s.pt \
 ## 存在的问题
 
 1. 上图[第一行第三列乳腺图像](https://github.com/mpu-tt/breast-detection/raw/main/images/train_epoch_vis.jpg) 经过裁剪会丢失掉胸肌部分信息，所以需要大家在具体任务重新训练检测模型。
+2. 训练的`batch size`、`image size`都需要根据具体任务和机器进行调整。
 
 ## 其它资源
 
