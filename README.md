@@ -2,7 +2,15 @@
 
 ## 推理
 
-
+```python
+python detect.py --weights weights/best.pt \
+                 --source demo.jpg \ # file、dir、url、screen、cam
+                 --imgsz 640 \
+                 --conf-thres 0.25 \
+                 --iou-thres 0.45 \
+                 --device 0 \
+                 --save-crop 
+```
 
 ## 训练（可选）
 
