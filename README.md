@@ -8,6 +8,7 @@
 
 1. 数据集基于[remekkinas/rsna-roi-detector-annotations-yolo](https://www.kaggle.com/datasets/remekkinas/rsna-roi-detector-annotations-yolo)
 2. 模型基于[ultralytics/yolov5-v7.0](https://github.com/ultralytics/yolov5/tree/v7.0)
+3. 预训练权重基于[yolov5s.pt](https://github.com/ultralytics/yolov5/releases/download/v7.0/yolov5s.pt)
 
 ## 其它资源
 
