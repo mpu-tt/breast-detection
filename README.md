@@ -7,7 +7,7 @@
 
 |原图1|Breast-ROI-Detection处理后的图1|原图2|Breast-ROI-Detection处理后的图2|
 |:-:|:-:|:-:|:-:|
-|<img src="./images/289.png" width = "200" align=center />|<img src="./images/289.jpg" width = "200" align=center />|<img src="./images/311.png" width = "200" align=center />|<img src="./images/311.jpg" width = "200" align=center />|
+|<img src="./images/289.png" width = "400" align=center />|<img src="./images/289.jpg" width = "200" align=center />|<img src="./images/311.png" width = "400" align=center />|<img src="./images/311.jpg" width = "200" align=center />|
 
 ## 推理
 > 本仓库已经提供了mAP@.5:.95为94的模型，可以直接使用。[权重](https://github.com/mpu-tt/breast-detection/tree/main/weights)
