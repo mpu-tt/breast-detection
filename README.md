@@ -1,4 +1,4 @@
-## 乳腺通用检测(Breast-ROI-Detection) [在线使用](https://huggingface.co/spaces/NatureAI/Breast-ROI-Detection)
+## 乳腺图像通用检测(Breast-ROI-Detection) [在线使用](https://huggingface.co/spaces/NatureAI/Breast-ROI-Detection)
 
 - **面临的问题**：常见的乳腺图像中会含有乳腺的**拍摄角度信息(见下原图1和2)** 以及**大面积的无效阴影区域(据统计，通常这些阴影区域面积会占到整张图的50%及以上)** 。
 - **解决的意义**：删除无用的背景阴影和角度信息，更加凸显乳腺区域的特征信息。
